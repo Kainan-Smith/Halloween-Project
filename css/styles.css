@@ -104,10 +104,44 @@ a {
     text-align: center;
 }
 
+.one>p {
+    padding: 10%;
+    font-size: 26px;
+    font-family: "Amatic SC", sans-serif;
+    margin-bottom: 1.0em;
+}
+
+.two {
+    padding: 10%;
+    font-size: 1.5em;
+}
+
+.two h2,
+.two p {
+    font-family: "Amatic SC", sans-serif;
+    margin-bottom: 1.2em;
+}
+
+.seven {
+    padding: 10%;
+    font-size: 1.5em;
+}
+
 /*------- Responsive Images  -------------*/
 img {
     width: 100%;
 }
+
+.fltRight {
+    float: right;
+    height: 70px
+}
+
+.fltLeft {
+    float: Left;
+    height: 70px
+}
+
 
 /*==========================================
         CSS GRID RULES
@@ -131,7 +165,7 @@ img {
     background-image: url(../images/2151827499.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-position-x: left;
     background-position-y: bottom;
 }
 
