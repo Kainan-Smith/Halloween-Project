@@ -65,7 +65,7 @@ a {
 }
 
 .main-nav a:hover {
-    color: #FF9505;
+    color: #9dffaa;
 }
 
 .logo a {
@@ -111,7 +111,7 @@ a {
     margin-bottom: 1.0em;
 }
 
-.two {
+.two, .four, .five {
     padding: 10%;
     font-size: 1.5em;
 }
@@ -121,6 +121,8 @@ a {
     font-family: "Amatic SC", sans-serif;
     margin-bottom: 1.2em;
 }
+
+
 
 .seven {
     padding: 10%;
@@ -134,14 +136,15 @@ img {
 
 .fltRight {
     float: right;
-    height: 70px
 }
 
 .fltLeft {
     float: Left;
-    height: 70px
 }
 
+.img {
+    width: 20%;
+}
 
 /*==========================================
         CSS GRID RULES
@@ -152,7 +155,7 @@ img {
 
 .one {
     min-height: 250px;
-    background-color:#3c596c;
+    background-color:#6c596c;
 }
 
 .two {
@@ -171,7 +174,7 @@ img {
 
 .four {
     min-height: 250px;
-    background-color:#42596a;
+    background-color:#6c596c;
 }
 
 .five {
@@ -325,7 +328,7 @@ img {
 footer {
     margin-top: 0;
     padding: 10%;
-    background-color: #FF9505;
-    color: #0e0d0a;
+    background-color: #0e0d0a;
+    color: #fefdfa;
     min-height: 300px;
 }
