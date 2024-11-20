@@ -262,26 +262,6 @@ img {
 /*---------- End of Tablet Media Query ---------*/
 
 
-/*-------- Desktop Media Query -----------------*/
-@media screen and (min-width: 1025px) {
-
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .hero h2 {
-        font-size: 4rem;
-        text-align: center;
-    }
-
-    #hero {
-        min-height: 800px;
-    }
-
-    .container {
-        grid-template-columns: repeat(3, 1fr);
-    }
 
     .one {
         grid-column: 1 / 4;
